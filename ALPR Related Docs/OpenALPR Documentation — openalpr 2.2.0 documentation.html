@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://doc.openalpr.com/ -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>OpenALPR Documentation — openalpr 2.2.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="./OpenALPR Documentation — openalpr 2.2.0 documentation_files/theme.css" type="text/css">
+  
+
+  
+
+  
+        <link rel="index" title="Index" href="http://doc.openalpr.com/genindex.html">
+        <link rel="search" title="Search" href="http://doc.openalpr.com/search.html">
+    <link rel="top" title="openalpr 2.2.0 documentation" href="http://doc.openalpr.com/#">
+        <link rel="next" title="Cloud Stream" href="http://doc.openalpr.com/cloud_stream.html"> 
+
+  
+  <script src="./OpenALPR Documentation — openalpr 2.2.0 documentation_files/modernizr.min.js.download"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="http://doc.openalpr.com/#" class="icon icon-home"> openalpr
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.2.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="http://doc.openalpr.com/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/cloud_stream.html">Cloud Stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/on_premises.html">On-Premises ALPR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/cloud_api.html">Cloud API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/opensource.html">Open Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/camera_placement.html">Camera Placement Guide</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="http://doc.openalpr.com/#">openalpr</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="http://doc.openalpr.com/#">Docs</a> »</li>
+        
+      <li>OpenALPR Documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="http://doc.openalpr.com/_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="openalpr-documentation">
+<h1>OpenALPR Documentation<a class="headerlink" href="http://doc.openalpr.com/#openalpr-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="http://doc.openalpr.com/#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>OpenALPR is an open source Automatic License Plate Recognition library written in C++ with bindings in C#, Java, Node.js, and Python. The library analyzes images and video streams to identify license plates. The output is the text representation of any license plate characters.</p>
+<p>The software can be used in many different ways. For example, with OpenALPR, you can:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Recognize license plates from camera streams. The results are <a class="reference internal" href="http://doc.openalpr.com/on_premises.html#web-server"><span class="std std-ref">browsable, searchable, and can trigger alerts</span></a>. The data repository can be in the cloud or stored entirely within your on-site network.</li>
+<li>Recognize license plates from camera streams and <a class="reference internal" href="http://doc.openalpr.com/on_premises.html#on-premises"><span class="std std-ref">send the results to your own application</span></a>.</li>
+<li><a class="reference internal" href="http://doc.openalpr.com/on_premises.html#video-processing"><span class="std std-ref">Process a video file</span></a> and store the license plate results in a CSV and SQLite database.</li>
+<li>Analyze still images from the <a class="reference internal" href="http://doc.openalpr.com/opensource.html#alpr-command-line"><span class="std std-ref">command-line</span></a></li>
+<li>Integrate license plate recognition into your application <a class="reference internal" href="http://doc.openalpr.com/on_premises.html#language-bindings"><span class="std std-ref">directly in-code (C/C++, C#, VB.NET, Java, Python, Node.js)</span></a></li>
+</ol>
+</div></blockquote>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/cloud_stream.html">Cloud Stream</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/cloud_stream.html#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/on_premises.html">On-Premises ALPR</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/on_premises.html#openalpr-agent">OpenALPR Agent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/on_premises.html#web-server">Web Server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/on_premises.html#application-integration">Application Integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/on_premises.html#video-processing">Video Processing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/cloud_api.html">Cloud API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/cloud_api.html#sign-up">Sign Up</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/cloud_api.html#integration-libraries">Integration Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/cloud_api.html#manual-integration">Manual Integration</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/opensource.html">Open Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#compiling">Compiling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#command-line-utility">Command line utility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#open-source-agent-alprd">Open Source Agent (alprd)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#calibration">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#pattern-matching">Pattern Matching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#id2">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#training-ocr">Training OCR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#training-the-detector">Training the Detector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#developers-guide">Developers Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/opensource.html#commercial-enhancements">Commercial Enhancements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://doc.openalpr.com/camera_placement.html">Camera Placement Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/camera_placement.html#lighting">Lighting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/camera_placement.html#angle">Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/camera_placement.html#pixels-on-target">Pixels on Target</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://doc.openalpr.com/camera_placement.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="http://doc.openalpr.com/#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="http://doc.openalpr.com/genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="http://doc.openalpr.com/py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="http://doc.openalpr.com/search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="http://doc.openalpr.com/cloud_stream.html" class="btn btn-neutral float-right" title="Cloud Stream" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <p>
+        © Copyright 2017, OpenALPR Technology, Inc..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2.2.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="./OpenALPR Documentation — openalpr 2.2.0 documentation_files/jquery.js.download"></script>
+      <script type="text/javascript" src="./OpenALPR Documentation — openalpr 2.2.0 documentation_files/underscore.js.download"></script>
+      <script type="text/javascript" src="./OpenALPR Documentation — openalpr 2.2.0 documentation_files/doctools.js.download"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="./OpenALPR Documentation — openalpr 2.2.0 documentation_files/theme.js.download"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+
+</body></html>
