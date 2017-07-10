@@ -241,7 +241,7 @@ Appointment<y:LabelModel>
           <y:Geometry height="62.0" width="99.40000000000009" x="923.5635416666663" y="887.7234374999989"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.376953125" x="14.011523437500045" y="14.298828125">Checkup/
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="71.376953125" x="14.011523437500045" y="14.298828125">Checkup
 Appointment<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -291,7 +291,7 @@ Appointment<y:LabelModel>
           <y:Geometry height="62.0" width="129.4000000000001" x="923.5635416666663" y="1002.2499999999927"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.390625" x="9.004687500000045" y="14.298828125">Record &amp; Review 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.390625" x="9.004687500000045" y="14.298828125">Record 
 Appointment Details<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -403,6 +403,23 @@ Appointment Details<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
+    <node id="n23">
+      <data key="d6">
+        <y:GenericNode configuration="BevelNode2">
+          <y:Geometry height="62.0" width="129.4000000000001" x="702.0500000000002" y="1002.2499999999927"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.390625" x="9.004687500000045" y="14.298828125">Review
+Appointment Details<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
     <edge id="e0" source="n1" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
@@ -505,10 +522,10 @@ Appointment Details<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n16" target="n18">
+    <edge id="e10" source="n23" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="-64.66948242187493" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -516,7 +533,6 @@ Appointment Details<y:LabelModel>
       </data>
     </edge>
     <edge id="e11" source="n8" target="n20">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-49.701416015625114" sy="0.0" tx="49.701416015625" ty="0.0"/>
@@ -527,7 +543,6 @@ Appointment Details<y:LabelModel>
       </data>
     </edge>
     <edge id="e12" source="n8" target="n21">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="31.0302734375" tx="49.701416015625" ty="0.0">
@@ -540,7 +555,6 @@ Appointment Details<y:LabelModel>
       </data>
     </edge>
     <edge id="e13" source="n21" target="n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="31.0302734375" tx="-49.30000000000018" ty="0.0">
@@ -553,7 +567,6 @@ Appointment Details<y:LabelModel>
       </data>
     </edge>
     <edge id="e14" source="n20" target="n22">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-49.68073365242162" sy="-8.655453897434313" tx="0.0" ty="31.0302734375">
@@ -566,7 +579,6 @@ Appointment Details<y:LabelModel>
       </data>
     </edge>
     <edge id="e15" source="n22" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-7.613541666666606" ty="-25.62499999999659">
@@ -579,12 +591,21 @@ Appointment Details<y:LabelModel>
       </data>
     </edge>
     <edge id="e16" source="n20" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-49.701416015625114" sy="0.0" tx="0.0" ty="-31.0302734375">
             <y:Point x="513.7500000000001" y="783.9249999999965"/>
           </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n16" target="n23">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
