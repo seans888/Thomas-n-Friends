@@ -233,10 +233,11 @@ Appointment Details
     <node id="n12">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="63.958333333333314" width="169.8616666666668" x="992.3263958333349" y="17.490812499999265"/>
+          <y:Geometry height="63.958333333333314" width="169.8616666666668" x="1003.9611752360964" y="17.490812499999265"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="171.58544921875" x="-7.882617643051049" y="13.224853515625597">5.1: getScheduleDerma()<y:LabelModel>
+          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="171.58544921875" x="-7.882617643051049" y="13.224853515625597">5.1: getScheduleDerma()
+5.2: getLocationDerma()<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -270,7 +271,7 @@ Appointment Details
           <y:Geometry height="63.958333333333314" width="169.8616666666668" x="491.57877098636095" y="102.8774583333319"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="116.53662109375" x="-5.353680219842204" y="13.224853515625597">5.3: getConfirm()<y:LabelModel>
+          <y:NodeLabel alignment="right" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.37158203125" x="-4.702939802534274" y="13.224853515625597">5.3: getRatify()<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
