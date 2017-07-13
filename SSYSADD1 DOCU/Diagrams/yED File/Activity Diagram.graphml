@@ -64,7 +64,7 @@
           </y:StyleProperties>
           <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
           <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-          <y:BorderInsets bottom="21" bottomF="21.172432883105785" left="15" leftF="15.121223678593651" right="46" rightF="46.25030406075393" top="5" topF="4.575703264058404"/>
+          <y:BorderInsets bottom="26" bottomF="26.33451507488661" left="15" leftF="15.121223678593651" right="46" rightF="46.25030406075393" top="5" topF="4.575703264058404"/>
           <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
             <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
             <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
@@ -178,7 +178,7 @@ radius<y:LabelModel>
         <node id="n1::n5">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-883.9528547945215" y="243.6892958919371"/>
+              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-883.9528547945215" y="238.52721370015627"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.37890625" x="16.093450984589026" y="10.811496254280826">Displays nearby List<y:LabelModel>
@@ -556,7 +556,7 @@ of Derma<y:LabelModel>
     <node id="n3">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="-827.1699506849325" y="335.18589315860453"/>
+          <y:Geometry height="30.0" width="30.0" x="-614.360838341585" y="243.6892958919371"/>
           <y:Fill color="#808080" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="8.998046875" y="5.6494140625">B<y:LabelModel>
@@ -573,7 +573,7 @@ of Derma<y:LabelModel>
     <node id="n4">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="20.0" width="20.0" x="-822.1699506849325" y="340.18589315860453"/>
+          <y:Geometry height="20.0" width="20.0" x="-609.360838341585" y="248.6892958919371"/>
           <y:Fill color="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="3.998046875" y="0.6494140625">B<y:LabelModel>
@@ -1079,25 +1079,25 @@ Message<y:LabelModel>
       <data key="d5"/>
       <data key="d6">
         <y:TableNode configuration="YED_TABLE_NODE">
-          <y:Geometry height="422.12782281831153" width="607.6131801747736" x="-1031.8976646948317" y="431.053216981899"/>
+          <y:Geometry height="422.12782281831153" width="607.6131801747734" x="-1090.605869101979" y="343.8805653885514"/>
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.90087890625" x="203.85615063426178" y="4.0">Display Dermatologist Details</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.02734375" x="67.07045435212615" y="33.0">Dermatologist<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.90087890625" x="203.85615063426167" y="4.0">Display Dermatologist Details</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.02734375" x="67.07045435212672" y="33.0">Dermatologist<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:ColumnNodeLabelModelParameter id="column_0" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="44.0078125" x="294.9017949381579" y="33.0">System<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="44.0078125" x="294.9017949381589" y="33.0">System<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:ColumnNodeLabelModelParameter id="column_1" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="41.359375" x="493.9484775484185" y="33.0">Patient<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="41.359375" x="493.94847754841896" y="33.0">Patient<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1121,13 +1121,13 @@ Message<y:LabelModel>
             <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
             <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
             <y:Columns>
-              <y:Column id="column_0" minimumWidth="80.0" width="212.1682524542523">
+              <y:Column id="column_0" minimumWidth="80.0" width="212.16825245425332">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
               <y:Column id="column_1" minimumWidth="80.0" width="209.47489746781116">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
-              <y:Column id="column_2" minimumWidth="80.0" width="185.9700302527101">
+              <y:Column id="column_2" minimumWidth="80.0" width="185.97003025270897">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
             </y:Columns>
@@ -1143,7 +1143,7 @@ Message<y:LabelModel>
         <node id="n7::n0">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="30.0" width="30.0" x="-536.6422422600292" y="494.5516883552895"/>
+              <y:Geometry height="30.0" width="30.0" x="-595.3504466671764" y="407.3790367619419"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.341796875" x="0.3291015625" y="5.649414062499943">Start<y:LabelModel>
@@ -1160,7 +1160,7 @@ Message<y:LabelModel>
         <node id="n7::n1">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-593.4251463696181" y="554.5516883552895"/>
+              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-652.1333507767653" y="467.37903676194185"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="142.703125" x="0.43134160958891243" y="10.811496254280769">Click Dermatologist Name<y:LabelModel>
@@ -1177,7 +1177,7 @@ Message<y:LabelModel>
         <node id="n7::n2">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-782.7363708937427" y="554.5516883552895"/>
+              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-841.4445753008898" y="467.37903676194185"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.716796875" x="1.4245056720889124" y="10.811496254280769">Get Dermatologist Details<y:LabelModel>
@@ -1194,7 +1194,7 @@ Message<y:LabelModel>
         <node id="n7::n3">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-993.9273110578715" y="554.5516883552895"/>
+              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-1052.6355154650187" y="467.37903676194185"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.6875" x="37.439154109589026" y="10.811496254280769">Give Details<y:LabelModel>
@@ -1211,7 +1211,7 @@ Message<y:LabelModel>
         <node id="n7::n4">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-782.7363708937428" y="616.050861903712"/>
+              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-841.4445753008899" y="528.8782103103644"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.359375" x="30.103216609589026" y="10.811496254280769">Display Details<y:LabelModel>
@@ -1228,7 +1228,7 @@ Message<y:LabelModel>
         <node id="n7::n5">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="162.73780032218224" x="-792.3223669452449" y="677.5500354521344"/>
+              <y:Geometry height="40.32416438356165" width="162.73780032218224" x="-851.030571352392" y="590.3773838587867"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="154.076171875" x="4.330814223591119" y="10.811496254280769">Get Dermatologist Schedule<y:LabelModel>
@@ -1245,7 +1245,7 @@ Message<y:LabelModel>
         <node id="n7::n6">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="179.513293412311" x="-1011.901053654438" y="677.5500354521344"/>
+              <y:Geometry height="40.32416438356165" width="179.513293412311" x="-1070.609258061585" y="590.3773838587867"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="173.41796875" x="3.047662331155493" y="10.811496254280769">Give Schedule and Clinic Hours<y:LabelModel>
@@ -1262,7 +1262,7 @@ Message<y:LabelModel>
         <node id="n7::n7">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-782.7363708937427" y="739.0492090005567"/>
+              <y:Geometry height="40.32416438356165" width="143.56580821917794" x="-841.4445753008898" y="651.8765574072091"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.71875" x="23.423529109588912" y="10.811496254280769">Display Schedule<y:LabelModel>
@@ -1279,7 +1279,7 @@ Message<y:LabelModel>
         <node id="n7::n8">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="30.0" width="30.0" x="-725.9534667841538" y="813.5440455191195"/>
+              <y:Geometry height="30.0" width="30.0" x="-784.6616711913009" y="726.3713939257719"/>
               <y:Fill color="#808080" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="8.998046875" y="5.6494140625">B<y:LabelModel>
@@ -1296,7 +1296,7 @@ Message<y:LabelModel>
         <node id="n7::n9">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="20.0" width="20.0" x="-720.9534667841538" y="818.5440455191195"/>
+              <y:Geometry height="20.0" width="20.0" x="-779.6616711913009" y="731.3713939257719"/>
               <y:Fill color="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="3.998046875" y="0.6494140625">B<y:LabelModel>
@@ -1615,7 +1615,8 @@ Message<y:LabelModel>
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="-896.4115313150392" y="193.52721370015627"/>
-            <y:Point x="-896.4115313150392" y="350.18589315860453"/>
+            <y:Point x="-896.4115313150392" y="297.7824480770595"/>
+            <y:Point x="-599.360838341585" y="297.7824480770595"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2003,7 +2004,7 @@ Message<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-922.1444069482825" y="636.2129440954927"/>
+            <y:Point x="-980.8526113554296" y="549.0402925021451"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2038,7 +2039,7 @@ Message<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-922.1444069482825" y="759.2112911923375"/>
+            <y:Point x="-980.8526113554296" y="672.0386395989899"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
