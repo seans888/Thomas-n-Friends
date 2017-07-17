@@ -53,7 +53,7 @@
         <y:ShapeNode>
           <y:Geometry height="30.0" width="482.3005272407733" x="298.69947275922664" y="460.32548330404234"/>
           <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="239.15026362038662" y="13.0">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -244,7 +244,7 @@
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-6.875" sy="0.0" tx="6.868671353250704" ty="21.505381079888252"/>
+          <y:Path sx="-6.875" sy="0.0" tx="6.887278558874641" ty="17.43585237258344"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
