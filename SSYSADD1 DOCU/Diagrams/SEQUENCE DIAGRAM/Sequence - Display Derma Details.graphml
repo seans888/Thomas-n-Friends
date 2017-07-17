@@ -340,7 +340,7 @@
       <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="149.90889279437602" x="414.485239297012" y="398.0278482222637"/>
+          <y:Geometry height="30.0" width="149.90889279437602" x="417.187411528998" y="341.35742768316527"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.08203125" x="-9.14672646010331" y="5.6494140625">Check up coming schedule<y:LabelModel>
@@ -468,14 +468,14 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n16" target="n16">
+    <edge id="e9" source="n16" target="n5">
       <data key="d8"/>
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="6.869966564994684" sy="-15.862575864863175" tx="6.872923198593924" ty="10.553037459426463">
-            <y:Point x="404.541740913884" y="400.28674868189916"/>
-            <y:Point x="404.541740913884" y="426.70236200618876"/>
+          <y:Path sx="8.818186291739949" sy="-36.18822507400324" tx="6.889878622787023" ty="14.513148122243877">
+            <y:Point x="404.541740913884" y="379.9610994727591"/>
+            <y:Point x="404.541740913884" y="327.4670584913125"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
