@@ -1,0 +1,5 @@
+According to the article there are four types of touch screen
+1. Resistive 
+2. Capacitive
+3. Surface acoustical wave
+4. infrared 
