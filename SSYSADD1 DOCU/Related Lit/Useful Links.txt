@@ -2,5 +2,10 @@ https://www.digikey.com/en/articles/techzone/2012/feb/the-importance-of-calibrat
 
 https://www.maximintegrated.com/en/app-notes/index.mvp/id/5296
 
+http://www.embedded.com/design/system-integration/4023968/How-To-Calibrate-Touch-Screens
+
+http://www.ti.com/lit/an/slyt277/slyt277.pdf
+
+http://www.instructables.com/id/Making-A-Glove-Work-With-A-Touch-Screen/
 
 
