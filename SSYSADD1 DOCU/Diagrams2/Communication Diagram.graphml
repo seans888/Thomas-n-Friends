@@ -21,7 +21,7 @@
           <y:Geometry height="100.0" width="60.0" x="240.0" y="37.31957132075472"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.447265625" x="14.2763671875" y="104.0">User<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.447265625" x="14.2763671875" y="104.00000000000001">User<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -367,7 +367,7 @@ Setting
     <node id="n20">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="12.400000000000006" width="12.399999999999977" x="309.12644412377364" y="78.9"/>
+          <y:Geometry height="12.400000000000006" width="12.399999999999977" x="309.12644412377364" y="73.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.199999999999989" y="4.200000000000003">
@@ -385,7 +385,7 @@ Setting
     <node id="n21">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="12.400000000000006" width="12.399999999999977" x="479.1" y="78.89999999999998"/>
+          <y:Geometry height="12.400000000000006" width="12.399999999999977" x="479.1" y="73.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.199999999999989" y="4.200000000000003">
