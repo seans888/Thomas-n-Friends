@@ -94,7 +94,7 @@ Phone_Unit; Varchar
           <y:Geometry height="73.0" width="143.0" x="288.0999999999997" y="139.95000000000005"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.3828125" x="1.9730772272256445" y="5.09765625">performCalibraiton()
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.3828125" x="1.9730772272256445" y="5.09765625">performCalibration()
 checkHistory()
 sendFeedback
 chooseUserSetting()<y:LabelModel>
