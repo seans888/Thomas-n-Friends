@@ -18,7 +18,11 @@
       <data key="d5"/>
       <data key="d6">
         <y:TableNode configuration="YED_TABLE_NODE">
+<<<<<<< HEAD
           <y:Geometry height="755.3848279999997" width="789.1381729318862" x="-270.77964531249984" y="55.67519999999999"/>
+=======
+          <y:Geometry height="787.3848279999997" width="789.1381729318862" x="-270.77964531249984" y="55.67519999999999"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="175.73828125" x="306.6999458409431" y="4.0">Touch Calibrating System</y:NodeLabel>
@@ -54,7 +58,11 @@
           </y:StyleProperties>
           <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
           <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+<<<<<<< HEAD
           <y:BorderInsets bottom="23" bottomF="23.17329200000006" left="59" leftF="59.09010931249995" right="56" rightF="55.67189961938652" top="13" topF="12.770528000000013"/>
+=======
+          <y:BorderInsets bottom="27" bottomF="26.649999999999977" left="59" leftF="59.09010931249995" right="56" rightF="55.67189961938652" top="13" topF="12.770528000000013"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
           <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
             <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
             <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
@@ -71,7 +79,11 @@
               </y:Column>
             </y:Columns>
             <y:Rows>
+<<<<<<< HEAD
               <y:Row height="701.3848279999997" id="row_0" minimumHeight="50.0">
+=======
+              <y:Row height="733.3848279999997" id="row_0" minimumHeight="50.0">
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
               </y:Row>
             </y:Rows>
@@ -102,7 +114,11 @@
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="32.688000000000045" width="32.688000000000045" x="94.34262800000008" y="755.1987359999996"/>
+=======
+              <y:Geometry height="32.688000000000045" width="32.688000000000045" x="94.34262800000008" y="783.7220279999998"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="14.344000000000051" y="14.343999999999994">
@@ -121,7 +137,11 @@
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="22.44799999999998" width="22.44799999999998" x="99.46262800000008" y="760.3187359999996"/>
+=======
+              <y:Geometry height="22.44799999999998" width="22.44799999999998" x="99.46262800000008" y="788.8420279999998"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="9.22399999999999" y="9.22399999999999">
@@ -342,10 +362,17 @@ Results<y:LabelModel>
       <data key="d5"/>
       <data key="d6">
         <y:TableNode configuration="YED_TABLE_NODE">
+<<<<<<< HEAD
           <y:Geometry height="312.38482799999997" width="789.138172931886" x="532.4210276193865" y="55.675200000000046"/>
           <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.37158203125" x="335.883295450318" y="4.0">Checking History</y:NodeLabel>
+=======
+          <y:Geometry height="312.3848280000001" width="789.1381729318862" x="547.1297276193864" y="55.67520000000002"/>
+          <y:Fill color="#ECF5FF" color2="#0042F440" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.37158203125" x="335.8832954503181" y="4.0">Checking History</y:NodeLabel>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.3359375" x="95.26025390625" y="33.0">User<y:LabelModel>
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
@@ -360,7 +387,11 @@ Results<y:LabelModel>
               <y:ColumnNodeLabelModelParameter id="column_1" inside="true" verticalPosition="0.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+<<<<<<< HEAD
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.373046875" x="645.8107856846932" y="33.0">Smartphone<y:LabelModel>
+=======
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.373046875" x="645.810785684693" y="33.0">Smartphone<y:LabelModel>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:ColumnNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -390,12 +421,20 @@ Results<y:LabelModel>
               <y:Column id="column_1" minimumWidth="80.0" width="352.0">
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
+<<<<<<< HEAD
               <y:Column id="column_2" minimumWidth="80.0" width="217.28172761938583">
+=======
+              <y:Column id="column_2" minimumWidth="80.0" width="217.28172761938606">
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="24.0"/>
               </y:Column>
             </y:Columns>
             <y:Rows>
+<<<<<<< HEAD
               <y:Row height="258.38482799999997" id="row_0" minimumHeight="50.0">
+=======
+              <y:Row height="258.3848280000001" id="row_0" minimumHeight="50.0">
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
                 <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
               </y:Row>
             </y:Rows>
@@ -407,7 +446,11 @@ Results<y:LabelModel>
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="25.0" width="25.0" x="631.8729639999996" y="137.44572800000003"/>
+=======
+              <y:Geometry height="25.0" width="25.0" x="646.5816639999995" y="137.445728"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="10.5" y="10.5">
@@ -426,7 +469,11 @@ Results<y:LabelModel>
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="40.0" width="172.99999999999994" x="836.2491279999997" y="129.94572800000003"/>
+=======
+              <y:Geometry height="40.0" width="172.99999999999994" x="850.9578279999996" y="129.945728"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#C0C0C0" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="144.712890625" x="14.1435546875" y="10.6494140625">Display Calibration History<y:LabelModel>
@@ -444,7 +491,11 @@ Results<y:LabelModel>
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="40.0" width="172.99999999999994" x="557.8729639999996" y="223.891456"/>
+=======
+              <y:Geometry height="40.0" width="172.99999999999994" x="572.5816639999995" y="223.89145599999998"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#C0C0C0" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.728515625" x="13.1357421875" y="10.6494140625">Choose Calibration History<y:LabelModel>
@@ -462,7 +513,11 @@ Results<y:LabelModel>
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="40.0" width="141.74999999999994" x="1145.9546279999986" y="223.89145599999998"/>
+=======
+              <y:Geometry height="40.0" width="141.74999999999994" x="1160.6633279999987" y="223.89145599999995"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#C0C0C0" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="95.37109375" x="23.189453125" y="10.6494140625">Deploy Algorithm<y:LabelModel>
@@ -480,7 +535,11 @@ Results<y:LabelModel>
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="32.688000000000045" width="32.688000000000045" x="1200.4856279999985" y="306.5376560000001"/>
+=======
+              <y:Geometry height="32.688000000000045" width="32.688000000000045" x="1215.1943279999987" y="306.5376560000001"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="14.344000000000051" y="14.344000000000051">
@@ -499,6 +558,7 @@ Results<y:LabelModel>
           <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
+<<<<<<< HEAD
               <y:Geometry height="22.44799999999998" width="22.44799999999998" x="1205.605627999999" y="311.6576560000001"/>
               <y:Fill color="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
@@ -614,6 +674,9 @@ Results<y:LabelModel>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="22.44799999999998" width="22.44799999999998" x="881.5251280000003" y="695.2093333333331"/>
+=======
+              <y:Geometry height="22.44799999999998" width="22.44799999999998" x="1220.314327999999" y="311.6576560000001"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:Fill color="#000000" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="9.223999999999933" y="9.22399999999999">
@@ -628,6 +691,7 @@ Results<y:LabelModel>
             </y:ShapeNode>
           </data>
         </node>
+<<<<<<< HEAD
         <node id="n2::n3">
           <data key="d5"/>
           <data key="d6">
@@ -700,6 +764,8 @@ Results<y:LabelModel>
             </y:ShapeNode>
           </data>
         </node>
+=======
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
       </graph>
     </node>
     <edge id="n0::e0" source="n0::n0" target="n0::n3">
@@ -732,11 +798,19 @@ Results<y:LabelModel>
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="-240.96205844311368" y="193.99999999999983"/>
+<<<<<<< HEAD
             <y:Point x="-240.96205844311368" y="771.5427359999996"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="19.33984375" x="-56.710349458738676" y="279.27403828808565">No<y:LabelModel>
+=======
+            <y:Point x="-240.96205844311368" y="800.0660279999998"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="19.33984375" x="-56.710349458738676" y="293.5356842880858">No<y:LabelModel>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -893,8 +967,13 @@ Results<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<<<<<<< HEAD
             <y:Point x="922.7491279999997" y="189.74999999999991"/>
             <y:Point x="644.3729639999996" y="189.74999999999991"/>
+=======
+            <y:Point x="937.4578279999996" y="189.7499999999999"/>
+            <y:Point x="659.0816639999995" y="189.7499999999999"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -929,7 +1008,11 @@ Results<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<<<<<<< HEAD
             <y:Point x="413.1866279999998" y="771.5427359999996"/>
+=======
+            <y:Point x="413.1866279999998" y="800.0660279999998"/>
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -948,6 +1031,7 @@ Results<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
+<<<<<<< HEAD
     <edge id="n2::e0" source="n2::n0" target="n2::n3">
       <data key="d9"/>
       <data key="d10">
@@ -1048,6 +1132,8 @@ Results<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
+=======
+>>>>>>> 730494918f687f5d66a188ea06ae1b01006ab6f7
   </graph>
   <data key="d7">
     <y:Resources/>
