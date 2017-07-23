@@ -94,16 +94,9 @@ Phone_Unit; Varchar
           <y:Geometry height="73.0" width="143.0" x="288.0999999999997" y="139.95000000000005"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-<<<<<<< HEAD
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="110.69921875" x="3.3148741022256445" y="-2.2529296875">agreeTerms()
-performCalibraiton()
-checkHistory()
-sendFeedback
-=======
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="110.69921875" x="3.3148741022256445" y="5.09765625">performCalibraiton()
 checkHistory()
-reportProblem()
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
+sendFeedback
 chooseSetting()<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -123,12 +116,7 @@ chooseSetting()<y:LabelModel>
           <y:Geometry height="73.0" width="143.0" x="687.0999999999997" y="139.95000000000005"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-<<<<<<< HEAD
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.048828125" x="-2.3599305852743555" y="12.4482421875">  computeCalibration()
-=======
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="125.388671875" x="-4.0298524602743555" y="5.09765625">  configureCalibration()
-  sendFeedback()
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
   saveCalibration()
   recordCalibration()<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -232,17 +220,10 @@ chooseSetting()<y:LabelModel>
     <node id="n10">
       <data key="d6">
         <y:ShapeNode>
-<<<<<<< HEAD
           <y:Geometry height="20.0" width="24.0" x="640.6000000000013" y="324.85000000000014"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="22.01171875" x="0.994140625" y="0.6494140625">1..*<y:LabelModel>
-=======
-          <y:Geometry height="20.0" width="24.0" x="453.5999999999981" y="321.35000000000014"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="10.673828125" x="6.6630859375" y="0.6494140625">1<y:LabelModel>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -256,11 +237,7 @@ chooseSetting()<y:LabelModel>
     <node id="n11">
       <data key="d6">
         <y:ShapeNode>
-<<<<<<< HEAD
           <y:Geometry height="20.0" width="24.0" x="722.7" y="217.95000000000005"/>
-=======
-          <y:Geometry height="20.0" width="24.0" x="640.6000000000013" y="315.85000000000014"/>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="22.01171875" x="0.994140625" y="0.6494140625">1..*<y:LabelModel>
@@ -277,17 +254,10 @@ chooseSetting()<y:LabelModel>
     <node id="n12">
       <data key="d6">
         <y:ShapeNode>
-<<<<<<< HEAD
           <y:Geometry height="20.0" width="24.0" x="663.0999999999997" y="54.200000000000045"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="10.673828125" x="6.6630859375" y="0.6494140625">1<y:LabelModel>
-=======
-          <y:Geometry height="20.0" width="24.0" x="722.7" y="217.95000000000005"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="22.01171875" x="0.994140625" y="0.6494140625">1..*<y:LabelModel>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -301,11 +271,7 @@ chooseSetting()<y:LabelModel>
     <node id="n13">
       <data key="d6">
         <y:ShapeNode>
-<<<<<<< HEAD
           <y:Geometry height="20.0" width="24.0" x="440.0999999999997" y="54.200000000000045"/>
-=======
-          <y:Geometry height="20.0" width="24.0" x="663.0999999999997" y="54.200000000000045"/>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="22.01171875" x="0.994140625" y="0.6494140625">1..*<y:LabelModel>
@@ -321,7 +287,6 @@ chooseSetting()<y:LabelModel>
     </node>
     <node id="n14">
       <data key="d6">
-<<<<<<< HEAD
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="135.93644972972973" width="143.0" x="984.0999999999997" y="9.01355027027033"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
@@ -379,10 +344,6 @@ Algorithm_Name; Varchar<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="20.0" width="24.0" x="830.0999999999997" y="53.90000000000009"/>
-=======
-        <y:ShapeNode>
-          <y:Geometry height="20.0" width="24.0" x="440.0999999999997" y="54.200000000000045"/>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="22.01171875" x="0.994140625" y="0.6494140625">1..*<y:LabelModel>
@@ -396,7 +357,6 @@ Algorithm_Name; Varchar<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-<<<<<<< HEAD
     <node id="n18">
       <data key="d6">
         <y:ShapeNode>
@@ -412,27 +372,6 @@ Algorithm_Name; Varchar<y:LabelModel>
           </y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
-=======
-    <node id="n15">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="135.93644972972973" width="143.0" x="893.0999999999997" y="9.01355027027033"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="75.337890625" x="33.8310546875" y="4.0">ALGORITHM</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="142.052734375" x="2.0" y="30.701171874999986">Algorithm_ID; Int
-Algorithm_Name; Varchar<y:LabelModel>
-              <y:ErdAttributesNodeLabelModel/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:ErdAttributesNodeLabelModelParameter/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
-          </y:StyleProperties>
-        </y:GenericNode>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
       </data>
     </node>
     <edge id="e0" source="n3" target="n0">
@@ -469,12 +408,7 @@ Algorithm_Name; Varchar<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-<<<<<<< HEAD
     <edge id="e3" source="n2" target="n14">
-=======
-    <edge id="e3" source="n2" target="n15">
-      <data key="d9"/>
->>>>>>> 0320f745c00dbea369374f227d33ec24b12d6742
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
