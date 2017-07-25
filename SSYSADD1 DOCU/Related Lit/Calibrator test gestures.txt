@@ -1,0 +1,2 @@
+According to the study of Cichon, et al. they proposed and presented a tool that would obtain touchscreen interaction data[citation number here] and showed how the data gathered can be used for usability verification. In their study, they also the differnt ISO norms in order to clear out the standards of touch screen interactions. The researchers layed out the different touch gestures that could be registered in their tool ranging from single taps to a combination of several gestures such as pressing, tapping, and dragging all at the same time. 
+
