@@ -572,8 +572,8 @@
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="7.535173999999955" sy="-139.3627785068284" tx="-8.146076000000107" ty="-265.26254501975933"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Path sx="7.535173999999927" sy="-139.36277850682842" tx="-8.146076000000107" ty="-265.26254501975933"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -595,7 +595,7 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="7.535173999999955" sy="-40.36003435757806" tx="-7.515727999999967" ty="-166.17174785154552"/>
-          <y:LineStyle color="#000000" type="dashed" width="2.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -606,7 +606,7 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-7.537672200351608" sy="-122.01032835735532" tx="7.535173999999955" ty="5.741112595417974"/>
-          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="2.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -617,7 +617,7 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="7.560173999999961" sy="50.609432002760855" tx="-7.539826000000119" ty="-16.163164050572504"/>
-          <y:LineStyle color="#000000" type="dashed" width="2.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -628,7 +628,7 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-7.554403856766612" sy="-30.175442887567044" tx="7.585173999999995" ty="97.57599806520625"/>
-          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="2.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
@@ -639,7 +639,7 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="7.535173999999955" sy="147.38497206131194" tx="-7.5681104295181285" ty="10.212376007978605"/>
-          <y:LineStyle color="#000000" type="dashed" width="2.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
