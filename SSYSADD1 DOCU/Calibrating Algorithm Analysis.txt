@@ -1,0 +1,17 @@
+
+reference: http://radio.feld.cvut.cz/conf/poster2015/proceedings/Section_EI/EI_054_Kostal.pdf
+
+sample averaging - ensures that those out of bounds will be disregaarded
+
+Sx = LCD Resolution in X 
+Sy = LCD Resolution in Y
+
+Kx = scaled coordinates of X (display resolution divided by touch screen controller resolution)
+Ky = scaled coordinates of Y (display resolution divided by touch screen controller resolution)
+** Kx and Ky highly depends on the resolution of both the LCD & TSC **
+
+X' = Touch Screen Controllers coordinates of X
+Y' = Touch Screen Controllers coordinates of Y
+
+
+
