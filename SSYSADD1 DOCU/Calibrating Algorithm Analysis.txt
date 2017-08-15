@@ -24,6 +24,9 @@ P(X', Y')
 Misalignment Error: X' + DeltaX + Y' + DeltaY)
 
 Rotation Error: 
+Touch Screen: (R x CosTheta, R x SinTheta)
+Display: [R x Cos(Theta - DeltaTheta), R x Sin(Theta - DeltaTheta)]
+R = distance from origin C to point P
 
 
 
