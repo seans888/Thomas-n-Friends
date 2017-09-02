@@ -1,0 +1,23 @@
+Operating System as a factor affecting touchscreen's accurateness & responsiveness
+
+
+FACTORS: 
+1. VOLTS https://www.wired.com/2010/03/touchscreens-smartphones/
+2. MART https://www.google.com.ph/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjsiaKX5_zVAhUBvbwKHQ_oDD4QFggsMAE&url=http%3A%2F%2Fbgr.com%2F2013%2F09%2F20%2Fiphone-android-touch-screen-responsiveness%2F&usg=AFQjCNH-pHRXNJl52oaGIgNGuHx0_H-D8g
+3. 
+
+
+A mobile operating system is a software platform designed to run on mobile devices that runs on top of other application programs. Applications such as Facebook, Uber, or Spotify require a mobile operating system in order to run. (Source: http://www.webopedia.com/TERM/M/mobile_operating_system.html)  Typically, most operating systems are only applicable to  specific hardware specs. Others, on the other hand, root or jailbreak their phones in order to gain more flexibilty and access with their mobile operating systems because doing so allows them to use any mOS on a rooted or jailbroken phone which also allows them to get access to restricted apps(Source: http://searchmobilecomputing.techtarget.com/definition/mobile-operating-system)  
+
+Two well-known mobile operating systems are Google's android and apple's IOS, these two are often seen in the market. According to some researchers at Moto, one factor why Apple iOS’ touchscreen technology is more accurate because it uses 12-volt power source for the sensing lines in touchscreen sensor compared to 3 to 5-volt power source that most other component manufacturers have. When the touchscreen uses a higher voltage in sensing lines, which can be found in the touch screen sensor, the touch experience would be better. (Ganapati, 2010). 
+
+Another factor why OS affects the touch screen responsiveness is the Response time. With the use of Agawi's TouchMarks benchmark, he was able to measure the Response time of the device running on Windows, iOS, and Android.  Based on his measurements an iOS smartphone is two times faster than a Android or Windows base phone. (Source: https://www.google.com.ph/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiI0crV9PzVAhXGTLwKHVKtAvkQFggmMAA&url=https%3A%2F%2Fwww.extremetech.com%2Fcomputing%2F167040-iphone-5-vs-galaxy-s4-apple-phones-trounce-android-in-touchscreen-responsiveness&usg=AFQjCNFHYxM5VqZOD2P7XdhGHcFpUOLD3w) 
+
+
+
+
+
+
+
+
+
