@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "486138795911",
+    "firebase_url": "https://fir-app-62ce1.firebaseio.com",
+    "project_id": "fir-app-62ce1",
+    "storage_bucket": "fir-app-62ce1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486138795911:android:719b79b1bcc0ba61",
+        "android_client_info": {
+          "package_name": "com.example.jobie.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486138795911-23o2idgj7bl9kjpoknkhetvvibbd68ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobie.fireapp",
+            "certificate_hash": "ecb62c2c070b813111e1fee050dab6da43f2371b"
+          }
+        },
+        {
+          "client_id": "486138795911-l0upg3coonoc49toukinrq64l73o3j02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAv0-S3y4aA1moW3vUZKmBwECciYAkM8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486138795911-l0upg3coonoc49toukinrq64l73o3j02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
