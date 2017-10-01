@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements
         long EventDuration = e.getEventTime() - e.getDownTime();
         boolean doubleTapped = false;
 
-        if(EventDuration > 100)
+        if(EventDuration > 200)
         {
             return false;
         }
@@ -140,5 +140,4 @@ public class MainActivity extends AppCompatActivity implements
         textView.setText("\nonFling" + e1.toString() + e2.toString());
         return false;
     }
-
 }
