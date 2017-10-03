@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements
     //private float rangeX = 25f;
     //private float rangeY = 25f;
 
-    //float distance = 0;
+    //float distance = 0;d
 
 
     float radius = 25f;
