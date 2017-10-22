@@ -1,4 +1,4 @@
-package pbl.touchgestures;
+package pbl.maintouchgesture;
 
 import org.junit.Test;
 
