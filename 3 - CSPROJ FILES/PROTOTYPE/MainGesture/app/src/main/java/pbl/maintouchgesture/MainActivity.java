@@ -22,13 +22,14 @@ public class MainActivity extends AppCompatActivity implements
     boolean longPress;
     boolean scroll;
     boolean fling;
+    boolean swipe;
 
     int tapCount = 0;
 
     long upTime = 0;
     float prevX = 0;
     float prevY = 0;
-    float touchDurationTwo = 0;
+
 
     private static TextView textView;
     private GestureDetectorCompat GestureDetect;
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements
         doubleTap = false;
         longPress = false;
         scroll = false;
-        fling = false;
+        swipe = false;
 
         textView = (TextView) findViewById(R.id.textView);
         GestureDetect = new GestureDetectorCompat(this, this);
@@ -91,8 +92,9 @@ public class MainActivity extends AppCompatActivity implements
 
         //DOUBLE TAP
         float tapPos = (float) Math.sqrt(pow(prevX - event.getX(), 2) + pow(prevY - event.getY(), 2));
-        /*long EventDuration = event.getEventTime() - event.getDownTime();
-        if(EventDuration > 100)
+        long eventDuration = event.getEventTime() - event.getDownTime();
+        /*
+        if(eventDuration > 100)
         {
             tapCount = 0;
         }
@@ -103,12 +105,30 @@ public class MainActivity extends AppCompatActivity implements
         float longPressTime = (event.getEventTime() - event.getDownTime());
         longPressFunc(longPressTime);
 
+        //SWIPE
+        float swipeDistanceX = Math.abs(fX - sX);
+        float swipeDistanceY = Math.abs(fY - sY);
+
+        if( swipeDistanceX >= 200) {
+            if (swipeDistanceY >= 200) {
+                if (eventDuration > 100) {
+
+                    singleTap = false;
+                    doubleTap = false;
+                    longPress = false;
+                    scroll = false;
+                    swipe = true;
+
+                }
+            }
+        }
 
         textView.setText(
                 "\n\nON TOUCHEVENT"
                         + "\nSINGLE TAP: " + singleTap
                         + "\nDOUBLE TAP: " + doubleTap
                         + "\nLONG PRESS: " + longPress
+                        + "\nSWIPE: " + swipe
                         + "\nCount: " + tapCount
                         + "\nCurrent X: " + x
                         + "\nCurrent Y: " + y
@@ -121,6 +141,7 @@ public class MainActivity extends AppCompatActivity implements
                         + "\nupTime: " + upTime
                         + "\ngetPointerCount: " + event.getPointerCount()
 
+
         );
 
         return super.onTouchEvent(event);
@@ -132,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements
             singleTap = true;
             longPress = false;
             doubleTap = false;
+            swipe = false;
 
         }
 
@@ -144,6 +166,7 @@ public class MainActivity extends AppCompatActivity implements
                 singleTap = false;
                 longPress = false;
                 doubleTap = true;
+                swipe = false;
 
             }
         }
@@ -156,6 +179,7 @@ public class MainActivity extends AppCompatActivity implements
         if (longPressTime >= 500) {
             singleTap = false;
             doubleTap = false;
+            swipe = false;
             tapCount = 0;
             float downPos = (float) Math.sqrt(pow(sX, 2) + pow(sY, 2));
             float curPos = (float) Math.sqrt(pow(x, 2) + pow(y, 2));
