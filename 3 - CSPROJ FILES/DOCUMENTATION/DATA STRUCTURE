@@ -1,0 +1,42 @@
+DATA STRUCTURE
+
+-|items
+  -|users
+    -|userId: 0001;
+      -> userName: jprizal;
+      -> userEmail: jprizal@student.apc.edu.ph;
+      -> userFName: Jose Protacio;
+      -> userLName: Rizal;
+    -|userId: 0002;
+      -> userName: plaridel;
+      -> userEmail: plaridel@student.apc.edu.ph;
+      -> userFName: Marcelo;
+      -> userLName: Del Pilar;
+  -|gestures
+    -|gestureId: 01;
+      -> gestureName: Tap;
+    -|gestureId: 02;
+      -> gestureName: Double Tap;
+    -|gestureId: 03;
+      -> gestureName: Long Press;
+  -|attempt
+    -|attemptId: 00001;
+      -> userId: 0001;
+      -|gestureDetails
+        -> gestureId: 02;
+        -> velocity: xx;
+        -> eventTime: xx;
+
+
+-|items
+  -|users       (contains all users)
+  -|gestures    (contains all gestures)
+  -|attempts    (contains all attempts made by users)
+    -|gestureAttempt      (contains all attempts for "TAP")
+      -|gestureAttemptID
+        > UserId          (to determine who did that gesture)
+        > Gesture Id      (to determine what gesture the user is attempting)
+        -|gestureAttemptDetails
+          > GestureID     (to determine what gesture was recognized)
+          > velocity      ()
+          > success       (true or false)
