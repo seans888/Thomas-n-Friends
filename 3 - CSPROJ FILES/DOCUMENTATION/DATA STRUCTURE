@@ -22,8 +22,18 @@ DATA STRUCTURE
   -|attempt
     -|attemptId: 00001;
       -> userId: 0001;
+      -> gestureId: 01;
+      -> success: false;
       -|gestureDetails
         -> gestureId: 02;
+        -> velocity: xx;
+        -> eventTime: xx;
+    -|attemptId: 00002;
+      -> userId: 0001;
+      -> gestureId: 01;
+      -> success: true;
+      -|gestureDetails
+        -> gestureId: 01;
         -> velocity: xx;
         -> eventTime: xx;
 
@@ -33,10 +43,14 @@ DATA STRUCTURE
   -|gestures    (contains all gestures)
   -|attempts    (contains all attempts made by users)
     -|gestureAttempt      (contains all attempts for "TAP")
+      > UserId            (to determine who did that gesture)
       -|gestureAttemptID
-        > UserId          (to determine who did that gesture)
+        > CellphoneId
         > Gesture Id      (to determine what gesture the user is attempting)
         -|gestureAttemptDetails
           > GestureID     (to determine what gesture was recognized)
           > velocity      ()
           > success       (true or false)
+
+
+Schedule a meeting with the Adviser
