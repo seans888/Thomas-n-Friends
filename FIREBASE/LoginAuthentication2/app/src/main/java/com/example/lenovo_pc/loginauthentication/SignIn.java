@@ -30,7 +30,7 @@ public class SignIn extends AppCompatActivity {
 
         if(mAuth.getCurrentUser() == null){
             finish();
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), Authentication.class));
         }
 
         FirebaseUser user = mAuth.getCurrentUser();
@@ -44,7 +44,7 @@ public class SignIn extends AppCompatActivity {
             public void onClick(View v){
                mAuth.signOut();
                finish();
-               startActivity(new Intent(getApplicationContext(), MainActivity.class));
+               startActivity(new Intent(getApplicationContext(), Authentication.class));
            }
         });
     }
