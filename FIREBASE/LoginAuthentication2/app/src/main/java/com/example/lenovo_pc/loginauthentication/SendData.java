@@ -1,5 +1,6 @@
 package com.example.lenovo_pc.loginauthentication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,6 +12,8 @@ import android.widget.Toast;
 import android.support.v4.view.GestureDetectorCompat;
 import android.view.MotionEvent;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -38,13 +41,16 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
 
     private static TextView textView;
     private GestureDetectorCompat GestureDetect;
+    String myName;
+    private FirebaseAuth mAuth;
+    TextView username;
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         GestureDetect.onTouchEvent(event);
         textView = (TextView)findViewById(R.id.textView2);
 
-        totalTime = upTime - event.getDownTime();
+        totalTime = event.getDownTime() - upTime;
 
         if (tapCount >= 2){
             tapCount = 0;
@@ -226,7 +232,19 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         longPress = false;
         scroll = false;
         swipe = false;
+        mAuth = FirebaseAuth.getInstance();
+        username = (TextView)findViewById(R.id.tvName1);
+        if(mAuth.getCurrentUser() == null){
+            finish();
+            startActivity(new Intent(getApplicationContext(), Authentication.class));
+        }
 
+        FirebaseUser user = mAuth.getCurrentUser();
+
+        if(user != null){
+            username.setText("Welcome, " + user.getDisplayName());
+            myName = user.getDisplayName().toString();
+        }
         databaseVelocity = FirebaseDatabase.getInstance().getReference("velocity");
         etVelocity = (EditText) findViewById(R.id.etVelocity);
         submitData = (Button) findViewById(R.id.submitData);
@@ -247,7 +265,7 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         if(!TextUtils.isEmpty(value)){
             String id = databaseVelocity.push().getKey();
             Velocity velocity = new Velocity(id, value, singleTap, doubleTap, longPress, swipe,
-            x, y, sX, sY, fX, fY, totalTime);
+            x, y, sX, sY, fX, fY, totalTime, myName);
             databaseVelocity.child(id).setValue(velocity);
             Toast.makeText(this, "Value Added", Toast.LENGTH_LONG).show();
         }else{
