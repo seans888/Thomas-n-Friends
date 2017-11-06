@@ -41,8 +41,8 @@ DATA STRUCTURE
 -|items
   -|users       (contains all users)
   -|gestures    (contains all gestures)
-  -|attempts    (contains all attempts made by users)
-    -|gestureAttempt      (contains all attempts for "TAP")
+  -|attempts    (contains all attempts made by users) --> Pag pinindot ni user yung specific gesture, bagong attempt yon
+    -|gestureAttempt      (contains all attempts for "TAP") --> Pag pindot ni user ng submit button sa gesture page, bagong gesture attempt yon
       > UserId            (to determine who did that gesture)
       -|gestureAttemptID
         > CellphoneId

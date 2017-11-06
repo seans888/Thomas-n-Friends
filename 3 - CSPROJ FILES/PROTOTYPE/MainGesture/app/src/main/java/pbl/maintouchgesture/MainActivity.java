@@ -205,25 +205,6 @@ public class MainActivity extends AppCompatActivity implements
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
         // textView.setText("\nonSingleTapConfirmed\n" + "X Position: " + e.getX() + "\nY Position: " + e.getY() + "\nEventTime: "
