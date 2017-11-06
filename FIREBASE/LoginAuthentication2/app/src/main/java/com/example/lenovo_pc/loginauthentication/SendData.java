@@ -27,12 +27,12 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
     boolean doubleTap;
     boolean longPress;
     boolean scroll;
-    boolean fling;
     boolean swipe;
 
     int tapCount = 0;
 
     long upTime = 0;
+    long totalTime;
     float prevX = 0;
     float prevY = 0;
 
@@ -43,6 +43,8 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
     public boolean onTouchEvent(MotionEvent event) {
         GestureDetect.onTouchEvent(event);
         textView = (TextView)findViewById(R.id.textView2);
+
+        totalTime = upTime - event.getDownTime();
 
         if (tapCount >= 2){
             tapCount = 0;
@@ -112,9 +114,10 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
                         + "\nDownY: " + sY
                         + "\nUp X: " + fX
                         + "\nUp Y: " + fY
-                        + "\nDown Time: " + event.getDownTime()
-                        + "\nEvent Time: " + event.getEventTime()
-                        + "\nupTime: " + upTime
+                        + "\nDown Time: " + event.getDownTime() + "ms"
+                        + "\nEvent Time: " + event.getEventTime() + "ms"
+                        + "\nupTime: " + upTime + "ms"
+                        + "\nEvent Duration: " + totalTime + "ms"
                         + "\ngetPointerCount: " + event.getPointerCount()
         );
         return super.onTouchEvent(event);
@@ -216,6 +219,7 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         sY = 0;
         fX = 0;
         fY = 0;
+        totalTime = 0;
 
         singleTap = false;
         doubleTap = false;
@@ -242,7 +246,8 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         String value = etVelocity.getText().toString().trim();
         if(!TextUtils.isEmpty(value)){
             String id = databaseVelocity.push().getKey();
-            Velocity velocity = new Velocity(id, value);
+            Velocity velocity = new Velocity(id, value, singleTap, doubleTap, longPress, swipe,
+            x, y, sX, sY, fX, fY, totalTime);
             databaseVelocity.child(id).setValue(velocity);
             Toast.makeText(this, "Value Added", Toast.LENGTH_LONG).show();
         }else{
