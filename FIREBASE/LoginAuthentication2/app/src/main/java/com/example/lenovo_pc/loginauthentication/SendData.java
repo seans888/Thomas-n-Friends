@@ -45,6 +45,9 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
     private FirebaseAuth mAuth;
     TextView username;
 
+    String deviceName = android.os.Build.MODEL;
+    String deviceMan = android.os.Build.MANUFACTURER;
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         GestureDetect.onTouchEvent(event);
@@ -108,23 +111,25 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         }
 
         textView.setText(
-                "\n\nON TOUCHEVENT"
-                        + "\nSINGLE TAP: " + singleTap
-                        + "\nDOUBLE TAP: " + doubleTap
-                        + "\nLONG PRESS: " + longPress
-                        + "\nSWIPE: " + swipe
-                        + "\nCount: " + tapCount
-                        + "\nCurrent X: " + x
-                        + "\nCurrent Y: " + y
-                        + "\nDown X: " + sX
-                        + "\nDownY: " + sY
-                        + "\nUp X: " + fX
-                        + "\nUp Y: " + fY
-                        + "\nDown Time: " + event.getDownTime() + "ms"
-                        + "\nEvent Time: " + event.getEventTime() + "ms"
-                        + "\nupTime: " + upTime + "ms"
-                        + "\nEvent Duration: " + totalTime + "ms"
-                        + "\ngetPointerCount: " + event.getPointerCount()
+            "\n\nON TOUCHEVENT"
+                + "\nSINGLE TAP: " + singleTap
+                + "\nDOUBLE TAP: " + doubleTap
+                + "\nLONG PRESS: " + longPress
+                + "\nSWIPE: " + swipe
+                + "\nCount: " + tapCount
+                + "\nCurrent X: " + x
+                + "\nCurrent Y: " + y
+                + "\nDown X: " + sX
+                + "\nDownY: " + sY
+                + "\nUp X: " + fX
+                + "\nUp Y: " + fY
+                + "\nDown Time: " + event.getDownTime() + "ms"
+                + "\nEvent Time: " + event.getEventTime() + "ms"
+                + "\nupTime: " + upTime + "ms"
+                + "\nEvent Duration: " + totalTime + "ms"
+                + "\ngetPointerCount: " + event.getPointerCount()
+                + "\nDevice Name: " + deviceName
+                + "\nDevice Manufacturer: " + deviceMan
         );
         return super.onTouchEvent(event);
     }
@@ -214,6 +219,7 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
     Button submitData;
 
     DatabaseReference databaseVelocity;
+    DatabaseReference databaseUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -245,7 +251,10 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
             username.setText("Welcome, " + user.getDisplayName());
             myName = user.getDisplayName().toString();
         }
-        databaseVelocity = FirebaseDatabase.getInstance().getReference("velocity");
+        String databaseUserUrl = "https://fir-loginapp-c45e0.firebaseio.com/Attempt Details/" + user.getUid() + "/details";
+        String databaseVelocityUrl = "https://fir-loginapp-c45e0.firebaseio.com/Attempt Details/" + user.getUid() + "/gesture";
+        databaseVelocity = FirebaseDatabase.getInstance().getReferenceFromUrl(databaseVelocityUrl);
+        databaseUser = FirebaseDatabase.getInstance().getReferenceFromUrl(databaseUserUrl);
         etVelocity = (EditText) findViewById(R.id.etVelocity);
         submitData = (Button) findViewById(R.id.submitData);
         textView = (TextView) findViewById(R.id.textView);
@@ -264,9 +273,11 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         String value = etVelocity.getText().toString().trim();
         if(!TextUtils.isEmpty(value)){
             String id = databaseVelocity.push().getKey();
-            Velocity velocity = new Velocity(id, value, singleTap, doubleTap, longPress, swipe,
-            x, y, sX, sY, fX, fY, totalTime, myName);
+            String tapGestureId =  databaseUser.push().getKey();    //user.getUid();
+            Velocity velocity = new Velocity(id, value, singleTap, doubleTap, longPress);
+            GestureDetails gestureDetails = new GestureDetails(x, y, sX, sY, fX, fY, totalTime, myName);
             databaseVelocity.child(id).setValue(velocity);
+            databaseUser.child(tapGestureId).setValue(gestureDetails);
             Toast.makeText(this, "Value Added", Toast.LENGTH_LONG).show();
         }else{
             Toast.makeText(this, "ENTER VELOCITY", Toast.LENGTH_LONG).show();
