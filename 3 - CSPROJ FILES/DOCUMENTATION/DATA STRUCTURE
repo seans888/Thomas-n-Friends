@@ -54,3 +54,82 @@ DATA STRUCTURE
 
 
 Schedule a meeting with the Adviser
+
+
+Gestures:
+  - Tap
+    Details:
+      Time
+  - Double Tap
+    Details:
+      Distance Traveled
+      Time of Completion
+  - Long Press
+  - Scroll
+  - Flick
+
+
+Attempt Details
+  UserID
+    - Full Name
+    AttemptId --> When the user starts the test, all data of that test will go under here
+      GestureId --> For the first gesture; Tap
+        TryId --> The first attempt in this gesture
+          - gesture details
+          - gesture details
+        TryId
+          - gesture details
+          - gesture details
+        TryId
+          - gesture details
+          - gesture details
+        TryId
+          - gesture details
+          - gesture details
+      GestureId --> For the second gesture; double tap
+        TryId
+          - gesture details
+          - gesture details
+        TryId
+          - gesture details
+          - gesture details
+      GestureId --> for the third gesture; long press
+        TryId
+          - gesture details
+          - gesture details
+        TryId
+          - gesture details
+          - gesture details
+      GestureId --> for the fourth gesture; scroll
+        TryId
+          - gesture details
+          - gesture details
+        TryId
+          - gesture details
+          - gesture details
+
+
+
+Mag didisable kapag existing; mag gagray yung button
+Personalize yung profile --> Profile View
+Swift key --> generate a heat map; for the whole screen (ano yung madalas landingan ng daliri mo)
+
+For the design, a guideline for the developers and designers to make their application more useful.
+
+
+Front-End
+  Profile Personalization
+    > Per gesture statistics
+  Main Menu --> To start the Attempt, and a button for logout, and to lead them to the "view profile"
+  Separated Gestures for the Attempt
+    ?? time limit per attempt
+    ?? success reply after succesfull attempt
+    ?? failure reply after failed attempt
+  Heat Map Generator (to determine which parts of the screen and madalas landingan ng daliri)
+
+Back-End
+  Profile Personalization
+    > Data Query
+    > Statistics: error, etc (gathered from the database)
+    ?? produce infographics (graphs, tables, charts) --> per gesture? total?
+  Data Structure
