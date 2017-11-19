@@ -5,14 +5,15 @@ package com.example.lenovo_pc.loginauthentication;
  */
 
 class GestureDetails{
-    float xPosition, yPosition, initialX, initialY, finalX, finalY;
-    long totalTime;
-    String myName;
+    public float xPosition, yPosition, initialX, initialY, finalX, finalY;
+    public long totalTime;
+    public String myName, deviceName, deviceMan;
 
     public GestureDetails(float x, float y,
                           float sX, float sY,
                           float fX, float fY,
-                          long totalTime, String myName) {
+                          long totalTime, String myName,
+                          String deviceName, String deviceMan) {
         this.xPosition = x;
         this.yPosition = y;
         this.initialX = sX;
@@ -21,5 +22,7 @@ class GestureDetails{
         this.finalY = fY;
         this.totalTime = totalTime;
         this.myName = myName;
+        this.deviceName = deviceName;
+        this.deviceMan = deviceMan;
     }
 }

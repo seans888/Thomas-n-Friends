@@ -5,10 +5,10 @@ package com.example.lenovo_pc.loginauthentication;
  */
 
 public class Velocity {
-    String velocityId;
-    String value;
+    public String velocityId;
+    public String value;
 
-    boolean singleTap, doubleTap, longPress;
+    public boolean singleTap, doubleTap, longPress;
 
 
     public Velocity(String velocityId, String value, boolean singleTap, boolean doubleTap, boolean longPress) {

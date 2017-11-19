@@ -37,7 +37,7 @@ public class Authentication extends AppCompatActivity {
 
         if (mAuth.getCurrentUser() != null) {
             finish();
-            startActivity(new Intent(getApplicationContext(), SignIn.class));
+            startActivity(new Intent(getApplicationContext(), MainMenu.class));
         }
 
         signin.setOnClickListener(new View.OnClickListener() {
@@ -107,7 +107,7 @@ public class Authentication extends AppCompatActivity {
                             Toast.makeText(Authentication.this, "failed",
                                     Toast.LENGTH_SHORT).show();
                         }else{
-                            Intent i = new Intent(Authentication.this, SendData.class);
+                            Intent i = new Intent(Authentication.this, MainMenu.class);
                             finish();
                             startActivity(i);
                         }

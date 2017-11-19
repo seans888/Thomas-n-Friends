@@ -248,7 +248,7 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
         FirebaseUser user = mAuth.getCurrentUser();
 
         if(user != null){
-            username.setText("Welcome, " + user.getDisplayName());
+            username.setText("Welcome, " + user.getDisplayName() + "\n User Id: " + user.getUid());
             myName = user.getDisplayName().toString();
         }
         String databaseUserUrl = "https://fir-loginapp-c45e0.firebaseio.com/Attempt Details/" + user.getUid() + "/details";
@@ -275,7 +275,7 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
             String id = databaseVelocity.push().getKey();
             String tapGestureId =  databaseUser.push().getKey();    //user.getUid();
             Velocity velocity = new Velocity(id, value, singleTap, doubleTap, longPress);
-            GestureDetails gestureDetails = new GestureDetails(x, y, sX, sY, fX, fY, totalTime, myName);
+            GestureDetails gestureDetails = new GestureDetails(x, y, sX, sY, fX, fY, totalTime, myName, deviceName, deviceMan);
             databaseVelocity.child(id).setValue(velocity);
             databaseUser.child(tapGestureId).setValue(gestureDetails);
             Toast.makeText(this, "Value Added", Toast.LENGTH_LONG).show();
