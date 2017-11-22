@@ -6,14 +6,11 @@ package com.example.lenovo_pc.loginauthentication;
 
 public class Velocity {
     public String velocityId;
-    public String value;
-
     public boolean singleTap, doubleTap, longPress;
 
 
-    public Velocity(String velocityId, String value, boolean singleTap, boolean doubleTap, boolean longPress) {
+    public Velocity(String velocityId, boolean singleTap, boolean doubleTap, boolean longPress) {
         this.velocityId = velocityId;
-        this.value = value;
         this.singleTap = singleTap;
         this.doubleTap = doubleTap;
         this.longPress = longPress;

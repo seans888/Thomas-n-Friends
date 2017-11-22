@@ -270,17 +270,12 @@ public class SendData extends AppCompatActivity implements OnGestureListener, On
     }
 
     private void addVelocity(){
-        String value = etVelocity.getText().toString().trim();
-        if(!TextUtils.isEmpty(value)){
-            String id = databaseVelocity.push().getKey();
-            String tapGestureId =  databaseUser.push().getKey();    //user.getUid();
-            Velocity velocity = new Velocity(id, value, singleTap, doubleTap, longPress);
-            GestureDetails gestureDetails = new GestureDetails(x, y, sX, sY, fX, fY, totalTime, myName, deviceName, deviceMan);
-            databaseVelocity.child(id).setValue(velocity);
-            databaseUser.child(tapGestureId).setValue(gestureDetails);
-            Toast.makeText(this, "Value Added", Toast.LENGTH_LONG).show();
-        }else{
-            Toast.makeText(this, "ENTER VELOCITY", Toast.LENGTH_LONG).show();
-        }
+        String id = databaseVelocity.push().getKey();
+        String tapGestureId =  databaseUser.push().getKey();    //user.getUid();
+        Velocity velocity = new Velocity(id, singleTap, doubleTap, longPress);
+        GestureDetails gestureDetails = new GestureDetails(x, y, sX, sY, fX, fY, totalTime, myName, deviceName, deviceMan);
+        databaseVelocity.child(id).setValue(velocity);
+        databaseUser.child(tapGestureId).setValue(gestureDetails);
+        Toast.makeText(this, "Value Added", Toast.LENGTH_LONG).show();
     }
 }
