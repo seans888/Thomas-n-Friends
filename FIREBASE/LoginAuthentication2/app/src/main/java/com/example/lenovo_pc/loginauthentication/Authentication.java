@@ -16,18 +16,23 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class Authentication extends AppCompatActivity {
     public FirebaseAuth mAuth;
     private EditText email,password,name;
     private Button signin, signup;
 
+    DatabaseReference databaseUsers;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_page);
 
         mAuth = FirebaseAuth.getInstance();
+        String databaseUsersUrl = "https://fir-loginapp-c45e0.firebaseio.com/Users/";
+        databaseUsers = FirebaseDatabase.getInstance().getReferenceFromUrl(databaseUsersUrl);
 
         signin = (Button) findViewById(R.id.signin);
         signup = (Button) findViewById(R.id.signup);
@@ -55,6 +60,8 @@ public class Authentication extends AppCompatActivity {
                 String getemail = email.getText().toString().trim();
                 String getpassword = password.getText().toString().trim();
                 callsignup(getemail, getpassword);
+                String id = databaseUsers.push().getKey();
+                databaseUsers.child(id).setValue(getemail, getpassword);
 
             }
         });
