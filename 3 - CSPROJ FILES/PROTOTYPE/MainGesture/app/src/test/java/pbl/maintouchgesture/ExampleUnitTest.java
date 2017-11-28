@@ -1,4 +1,4 @@
-package pbl.nov;
+package pbl.maintouchgesture;
 
 import org.junit.Test;
 

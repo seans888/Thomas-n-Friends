@@ -1,4 +1,4 @@
-package pbl.nov;
+package pbl.maintouchgesture;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("pbl.nov", appContext.getPackageName());
+        assertEquals("pbl.maintouchgesture", appContext.getPackageName());
     }
 }
