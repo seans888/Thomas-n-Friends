@@ -1,0 +1,7 @@
+#Fri Nov 24 12:00:41 SGT 2017
+base.0=C\:\\Users\\acer\\Documents\\GitHub\\Thomas-n-Friends\\3 - CSPROJ FILES\\PROTOTYPE\\nov\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ea18670d5c7f76c8b9aabf636ff5fca120abbd05
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\acer\\Documents\\GitHub\\Thomas-n-Friends\\3 - CSPROJ FILES\\PROTOTYPE\\nov\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0dca96535e7a41acc98a21da3d9174e68f70ba76\\classes.dex
+base.1=C\:\\Users\\acer\\Documents\\GitHub\\Thomas-n-Friends\\3 - CSPROJ FILES\\PROTOTYPE\\nov\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0dca96535e7a41acc98a21da3d9174e68f70ba76
+file.0=C\:\\Users\\acer\\Documents\\GitHub\\Thomas-n-Friends\\3 - CSPROJ FILES\\PROTOTYPE\\nov\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ea18670d5c7f76c8b9aabf636ff5fca120abbd05\\classes.dex

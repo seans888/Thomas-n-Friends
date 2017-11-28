@@ -1,0 +1,4 @@
+#Thu Nov 23 22:11:48 SGT 2017
+base.0=C\:\\Users\\acer\\Documents\\GitHub\\Thomas-n-Friends\\3 - CSPROJ FILES\\PROTOTYPE\\nov\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=C\:\\Users\\acer\\Documents\\GitHub\\Thomas-n-Friends\\3 - CSPROJ FILES\\PROTOTYPE\\nov\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

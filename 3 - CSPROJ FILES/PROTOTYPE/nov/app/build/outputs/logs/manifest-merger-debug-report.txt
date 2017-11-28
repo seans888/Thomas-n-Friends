@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:3:5-22
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\acer\.android\build-cache\36ee18c797e9bdd92e7adf717a29e3e944f2b928\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\acer\.android\build-cache\a56038c803f785683c5286d526b1ccdd5289a8e3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\acer\.android\build-cache\3ddcafd449bfa8382d889cf708342ef0bd24f3e6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\acer\.android\build-cache\4acf3180cd63817d52bf474ed2f255e5ea71d70e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\acer\.android\build-cache\8323a34bd78747524865ca5c25d80f2a5290965e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\acer\.android\build-cache\1584aa99852ec1344c01b5eabc1fecf1adbe2eab\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\acer\.android\build-cache\ce3bda290ed804e1c9b3918ec4efbd31db3842ad\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\acer\.android\build-cache\d9e37fc57e1ea892eb8db3c2682ec3940177d1a0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\acer\.android\build-cache\760d2c75ec1826e7fd826cdb19a45b30bdbbd056\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:11:9-40
+activity#pbl.nov.MainActivity
+ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\acer\.android\build-cache\36ee18c797e9bdd92e7adf717a29e3e944f2b928\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\acer\.android\build-cache\a56038c803f785683c5286d526b1ccdd5289a8e3\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\acer\.android\build-cache\3ddcafd449bfa8382d889cf708342ef0bd24f3e6\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\acer\.android\build-cache\4acf3180cd63817d52bf474ed2f255e5ea71d70e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\acer\.android\build-cache\8323a34bd78747524865ca5c25d80f2a5290965e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\acer\.android\build-cache\1584aa99852ec1344c01b5eabc1fecf1adbe2eab\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\acer\.android\build-cache\ce3bda290ed804e1c9b3918ec4efbd31db3842ad\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\acer\.android\build-cache\d9e37fc57e1ea892eb8db3c2682ec3940177d1a0\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\acer\.android\build-cache\760d2c75ec1826e7fd826cdb19a45b30bdbbd056\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\acer\.android\build-cache\36ee18c797e9bdd92e7adf717a29e3e944f2b928\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\acer\.android\build-cache\a56038c803f785683c5286d526b1ccdd5289a8e3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\acer\.android\build-cache\3ddcafd449bfa8382d889cf708342ef0bd24f3e6\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\acer\.android\build-cache\4acf3180cd63817d52bf474ed2f255e5ea71d70e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\acer\.android\build-cache\8323a34bd78747524865ca5c25d80f2a5290965e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\acer\.android\build-cache\1584aa99852ec1344c01b5eabc1fecf1adbe2eab\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\acer\.android\build-cache\ce3bda290ed804e1c9b3918ec4efbd31db3842ad\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\acer\.android\build-cache\d9e37fc57e1ea892eb8db3c2682ec3940177d1a0\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\AndroidManifest.xml:26:9-47
