@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\8323a34bd78747524865ca5c25d80f2a5290965e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_439c7a90bdbf47524e3043d79e0e52a5427b803c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1fb3d93adf97f3008b1ef91d55056413635bbb67">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ea18670d5c7f76c8b9aabf636ff5fca120abbd05\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\760d2c75ec1826e7fd826cdb19a45b30bdbbd056\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_77b75d135ff410ac8a609df3a7533f8f8f677e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_669421f41d983083e47bd3a3ef6e9bd4c8f4637e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\a56038c803f785683c5286d526b1ccdd5289a8e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_00910cf7e29ca7af49a5d48bfc65fe2da23952fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\36ee18c797e9bdd92e7adf717a29e3e944f2b928\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_27f4ebc3593ed76b5cbced7acf3b53bbc7e31d83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\4acf3180cd63817d52bf474ed2f255e5ea71d70e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_78448292928df24cc463d8594b30a8d9dbecbeef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\3ddcafd449bfa8382d889cf708342ef0bd24f3e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_c85ccd0d16dc01fc0495b0adf01d1fdf8a809912.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\1584aa99852ec1344c01b5eabc1fecf1adbe2eab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_31e6ac2b4b5531116bf75b3a78aa74727cf47744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\ce3bda290ed804e1c9b3918ec4efbd31db3842ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_7d5f7193ba8ece3f2b86b0c19a1446d464d658b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\d9e37fc57e1ea892eb8db3c2682ec3940177d1a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_ae2ae7305e525817c7306d20af008aa0f030ec49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\415432f164e30e708fd64c377c80b5ae56a7a314\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\classes_a409043813c37edc9af7059446811b4ae5784c12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_7cfb0f5583fc83ae195f760a9eb03ff69eb89d50.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\acer\Documents\GitHub\Thomas-n-Friends\3 - CSPROJ FILES\PROTOTYPE\nov\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0dca96535e7a41acc98a21da3d9174e68f70ba76\classes.dex" />
+    </item>
+
+</items>

@@ -1,34 +1,26 @@
 package llantosthom.touchgestures;
 
+import android.os.Bundle;
 import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.MotionEvent;
-import android.gesture.Gesture;
 import android.widget.TextView;
 
-import java.lang.Math;
+import java.util.ArrayList;
+import java.util.List;
 
-import static android.view.GestureDetector.*;
+import static android.view.GestureDetector.OnDoubleTapListener;
+import static android.view.GestureDetector.OnGestureListener;
 import static java.lang.Math.pow;
-import static java.lang.Math.abs;
-import static java.lang.Math.sqrt;
 
 public class MainActivity extends AppCompatActivity implements
         OnGestureListener,OnDoubleTapListener{
 
-    //private float prevX;
-    //private float prevY;
 
-    //private float rangeX = 25f;
-    //private float rangeY = 25f;
+    float singleTapRadius = 25f;
+    float longPressRadius = 10f;
+    float doubleTapRadius = 200;
 
-    //float distance = 0;d
-
-
-    float radius = 25f;
     float x, y, sX, sY, fX, fY;
 
     boolean singleTap;
@@ -36,10 +28,13 @@ public class MainActivity extends AppCompatActivity implements
     boolean longPress;
     boolean scroll;
     boolean fling;
-
-    int tapCount = 0;
+    boolean swipeX;
+    boolean swipeY;
 
     long upTime = 0;
+
+    List<TapData> Data = new ArrayList<TapData>();
+
 
     private static TextView textView;
     private GestureDetectorCompat GestureDetect;
@@ -60,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements
         longPress = false;
         scroll = false;
         fling = false;
+        swipeX = false;
+        swipeY = false;
 
         textView = (TextView)findViewById(R.id.textView);
         GestureDetect = new GestureDetectorCompat(this,this);
@@ -70,14 +67,10 @@ public class MainActivity extends AppCompatActivity implements
     public boolean onTouchEvent(MotionEvent event) {
         GestureDetect.onTouchEvent(event);
 
-        if(tapCount >= 2)
-            tapCount = 0;
-
         x = event.getX();
         y = event.getY();
 
-        switch(event.getAction())
-        {
+        switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 sX = event.getX();
                 sY = event.getY();
@@ -86,39 +79,78 @@ public class MainActivity extends AppCompatActivity implements
                 fX = event.getX();
                 fY = event.getY();
                 upTime = event.getEventTime();
-                tapCount ++;
                 break;
         }
 
         float touchDuration = upTime - event.getDownTime();
+        float downPos = (float) Math.sqrt(pow(sX, 2) + pow(sY, 2));
+        float curPos = (float) Math.sqrt(pow(x, 2) + pow(y, 2));
 
-        // TODO Get number of touches within a given time period
         // SINGLE TAP
-        if(touchDuration < 500)
-        {
+        if (touchDuration < 500) {
             singleTap = true;
             longPress = false;
             doubleTap = false;
+            swipeX = false;
+            swipeY = false;
+            if (Math.abs(curPos - downPos) > singleTapRadius) {
+                singleTap = false;
+            } else {
+                singleTap = true;
+                // pagsingletap add sa data
+                TapData data = new TapData();
+                data.prevX = (long) event.getX();
+                data.prevY = (long) event.getY();
+                data.time = upTime;
+                Data.add(data);
+            }
+
         }
 
-        // DOUBLE TAPss
-        if(tapCount == 2)
-        {
-            singleTap = false;
-            longPress = false;
+
+        // DOUBLE TAP
+        // Check kung > 1 laman nung list
+
+        if (Data.size() > 1) {
+            // TRUE MUNA, pag pumasok sa loop, at natapos ung loop na true parin, double tap un
+
             doubleTap = true;
+            // check para radius shit
+
+
+            //TapData prev = Data.get(Data.size() - 1);
+            //TapData prev2 = Data.get(Data.size()-2);
+
+            // check x pos, pag hindi pasok, false
+            if (Math.abs(Data.get(Data.size() - 1).prevX - Data.get(Data.size() - 2).prevX) > singleTapRadius) {
+                doubleTap = false;
+            }
+
+            // check y pos, pag hindi pasok, false
+            if (Math.abs(Data.get(Data.size() - 1).prevY - Data.get(Data.size() - 2).prevY) > singleTapRadius) {
+                doubleTap = false;
+            }
+
+            // check time, pag hindi pasok, false
+            if (Math.abs(Data.get(Data.size() - 1).time - Data.get(Data.size() - 2).time) > 200) {
+                doubleTap = false;
+            }
+
         }
+        //hehehe di ko na alam
+
+
+
 
         // LONG PRESS
         if ( event.getEventTime() - event.getDownTime() >= 500)
         {
             singleTap = false;
             doubleTap = false;
-            tapCount = 0;
-            float downPos = (float) Math.sqrt( pow(sX, 2) + pow(sY, 2) );
-            float curPos = (float) Math.sqrt( pow(x, 2) + pow(y, 2) );
+            swipeX = false;
+            swipeY = false;
 
-            if( Math.abs( curPos - downPos ) > radius )
+            if( Math.abs( curPos - downPos ) > longPressRadius )
             {
                 longPress = false;
             }
@@ -126,12 +158,57 @@ public class MainActivity extends AppCompatActivity implements
                 longPress = true;
         }
 
+        //SWIPEHORIZONTAL or swipeX
+        //uptime = time pagbitaw ng finger & event.getDownTime() = time pagpindot
+        float swipeDistanceX = Math.abs(fX - sX);
+        long swipeDurationX = (upTime - event.getDownTime());
+        if( swipeDistanceX >= 150) {
+            if(swipeDurationX <= 500) {
+                singleTap = false;
+                doubleTap = false;
+                longPress = false;
+                scroll = false;
+                swipeX = true;
+            }
+        }
+
+        //SWIPEVERTICAL or swipeY
+        float swipeDistanceY = Math.abs(fY - sY);
+        long swipeDurationY = (upTime - event.getDownTime());
+        if( swipeDistanceY >= 150) {
+            if(swipeDurationY <= 500) {
+                singleTap = false;
+                doubleTap = false;
+                longPress = false;
+                scroll = false;
+                swipeY = true;
+            }
+        }
+
+        //SCROLL
+        float scrollDistance = Math.abs(fY - sY);
+        long scrollDuration = (upTime - event.getDownTime());
+        if( scrollDistance >= 50) {
+            if( scrollDuration > 500) {
+                singleTap = false;
+                doubleTap = false;
+                longPress = false;
+                scroll = true;
+                swipeX = false;
+                swipeY = false;
+
+            }
+        }
+
+
         textView.setText(
                 "\n\nON TOUCHEVENT"
                         +"\nSINGLE TAP: " + singleTap
                         +"\nDOUBLE TAP: " + doubleTap
                         +"\nLONG PRESS: " + longPress
-                        +"\nCount: " + tapCount
+                        +"\nSWIPEX: " + swipeX
+                        +"\nSWIPEY: " + swipeY
+                        +"\nSCROLL: " + scroll
                         +"\nCurrent X: " + x
                         +"\nCurrent Y: " + y
                         +"\nDown X: " + sX
@@ -139,9 +216,8 @@ public class MainActivity extends AppCompatActivity implements
                         +"\nUp X: " + fX
                         +"\nUp Y: " + fY
                         +"\nDown Time: " + event.getDownTime()
-                        +"\nEvent Time: " + event.getEventTime()
                         +"\nupTime: " + upTime
-                        +"\ngetPointerCount: " + event.getPointerCount()
+                        +"\nEvent Time: " + event.getEventTime()
 
         );
 
@@ -150,47 +226,13 @@ public class MainActivity extends AppCompatActivity implements
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
-       // textView.setText("\nonSingleTapConfirmed\n" + "X Position: " + e.getX() + "\nY Position: " + e.getY() + "\nEventTime: "
-      //          + e.getEventTime() + "\nDownTime: " +e.getDownTime());
-         return false;
+        return false;
     }
 
     @Override
     public boolean onDoubleTap(MotionEvent e) {
-        //textView.setText("\nonDoubleTap\n" + "X Position: " + e.getX() + "\nY Position: " + e.getY() + "\nEventTime: "
-               // + e.getEventTime() + "\nDownTime: " +e.getDownTime()  +"\nEventDuration: " + (e.getEventTime() - e.getDownTime()) );
         return false;
     }
 
@@ -253,49 +295,38 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public boolean onDown(MotionEvent e) {
-        //textView.setText("\nonDown" + e.toString());
         return false;
     }
 
     @Override
     public void onShowPress(MotionEvent e) {
-        //textView.setText("\nonShowPress" + e.toString());
     }
 
     @Override
     public boolean onSingleTapUp(MotionEvent e) {
-        //textView.setText("\nonSingleTapUp" + e.toString());
         return false;
     }
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-       // textView.setText("\nonScroll" + e1.toString()+ e2.toString());
         return false;
     }
 
     @Override
     public void onLongPress(MotionEvent e) {
 
-/*
-
-        textView.setText("\n\n\nonLongPress"
-
-                + "\nX Position: " + e.getX()
-                + "\nY Position: " + e.getY()
-                + "\nEventTime: " + e.getEventTime()
-                + "\nDownTime: " +e.getDownTime());
-
-*/
-
     }
 
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-       // textView.setText("\nonFling" + e1.toString() + e2.toString());
         return false;
     }
 
+    private class TapData {
+        public float prevX;
+        public float prevY;
+        public long time;
+    }
 
 
 }
