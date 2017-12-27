@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FirebaseApplication</string>
+
+    // Values for the Register Spinner
+    <array name = "city">
+        <item>Caloocan</item>
+        <item>Las Pinas</item>
+        <item>Makati</item>
+        <item>Malabon</item>
+        <item>Mandaluyong</item>
+        <item>Manila</item>
+        <item>Marikina</item>
+        <item>Muntinlupa</item>
+        <item>Navotas</item>
+        <item>Paranaque</item>
+        <item>Pasay</item>
+        <item>Pasig</item>
+        <item>Quezon City</item>
+        <item>San Juan</item>
+        <item>Taguig</item>
+        <item>Valenzuela</item>
+    </array>
+
+    <array name = "gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+</resources>
