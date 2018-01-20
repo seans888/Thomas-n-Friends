@@ -1,0 +1,20 @@
+Elections (through OCR)
+ Questions
+  1. Does it really have to be paper based? Can it be tablet based? (or a web app, and the user will use a stylus for it, tho it'll be easier to type the name?)
+ Links
+ - Handwritten OCR (using Python)
+   > https://github.com/866/HOCR
+   > https://www.youtube.com/watch?v=0WIWrnLe2r0
+ - Handwriting Recognition (Web App; HTML with JS)
+   > https://github.com/MyScript/myscript-text-web
+ - OCR
+   > https://github.com/mateogianolio/ocr
+
+
+NDRRMC
+ Questions
+  1. Is it just focused on the Logistics part? or other modules (such as Law and Order, Dead and Missing, Camp Coordination, etc.) are also included?
+ - Logistics
+   > Projects2 Link: http://projects2.apc.edu.ph/wiki/index.php/Softdev_MI141/MI143_Logistics_System_-_Preparedness
+   > Demo Video: https://drive.google.com/file/d/0Bzvw0t3aiiWrY2t2aXQyU1N3T2c/view
+   > GitHub Link: https://github.com/jcheramia7/ResponseAble
